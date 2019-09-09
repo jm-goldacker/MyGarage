@@ -1,0 +1,10 @@
+﻿<Window x:Name="fileWindow" x:Class="MyGarage.FilterWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MyGarage"
+        mc:Ignorable="d"
+        Title="FilterWindow" Height="297.35" Width="580.565" ResizeMode="NoResize">
+    <Grid Margin="0,0,0,0.4" HorizontalAlignment="Left" Width="608"/>
+</Window>
