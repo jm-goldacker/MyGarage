@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MyGarage"
         mc:Ignorable="d"
-        Title="MyGarage" Height="425.569" Width="827.424">
+        Title="MyGarage" Height="425.569" Width="827.424" KeyDown="Window_KeyDown">
     <Grid Margin="0,0,0.2,0" RenderTransformOrigin="0.521,0.685">
         <Grid.RowDefinitions>
             <RowDefinition/>
@@ -32,9 +32,9 @@
             </Menu>
         </DockPanel>
         <DataGrid x:Name="dataGrid" Margin="10,21,10,42.4" SelectionChanged="DataGrid_SelectionChanged" IsReadOnly="True"/>
-        <Button x:Name="add_car_btn" Content="Hinzufügen (F11)" Margin="0,0,104.8,12" Height="23" VerticalAlignment="Bottom" Click="Add_car_btn_Click" HorizontalAlignment="Right" Width="101"/>
-        <Button x:Name="delete_car_btn" Content="Löschen (F12)" Margin="0,0,9.8,12" RenderTransformOrigin="0.43,0.441" Height="23" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="90" Click="Delete_car_btn_Click" IsEnabled="False"/>
-        <Button x:Name="search_btn" Content="Suchen (F9)" Margin="10,0,0,12" RenderTransformOrigin="0.431,1.507" Height="23" VerticalAlignment="Bottom" HorizontalAlignment="Left" FontSize="11" Width="74" IsEnabled="False"/>
-        <Button x:Name="details_btn" Content="Details (F10)" Margin="89,0,0,12" RenderTransformOrigin="0.431,1.507" Height="23" VerticalAlignment="Bottom" HorizontalAlignment="Left" FontSize="11" Width="75" Click="Details_btn_Click" IsEnabled="False"/>
+        <Button x:Name="add_car_btn" Content="Hinzufügen (F7)" Margin="0,0,104.8,12" Height="23" VerticalAlignment="Bottom" Click="Add_car_btn_Click" HorizontalAlignment="Right" Width="101"/>
+        <Button x:Name="delete_car_btn" Content="Löschen (F8)" Margin="0,0,9.8,12" RenderTransformOrigin="0.43,0.441" Height="23" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="90" Click="Delete_car_btn_Click" IsEnabled="False"/>
+        <Button x:Name="search_btn" Content="Suchen (F5)" Margin="10,0,0,12" RenderTransformOrigin="0.431,1.507" Height="23" VerticalAlignment="Bottom" HorizontalAlignment="Left" FontSize="11" Width="74" IsEnabled="False"/>
+        <Button x:Name="details_btn" Content="Details (F6)" Margin="89,0,0,12" RenderTransformOrigin="0.431,1.507" Height="23" VerticalAlignment="Bottom" HorizontalAlignment="Left" FontSize="11" Width="75" Click="Details_btn_Click" IsEnabled="False"/>
     </Grid>
 </Window>

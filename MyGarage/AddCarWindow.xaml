@@ -33,8 +33,8 @@
         <TextBox x:Name="vid_textBox" HorizontalAlignment="Left" Height="23" Margin="122,14,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="151" Grid.Column="1" LostFocus="Lost_focus"/>
         <TextBox x:Name="model_textBox" HorizontalAlignment="Left" Height="23" Margin="122,45,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="151" Grid.Column="1" LostFocus="Lost_focus"/>
         <TextBox x:Name="type_id_textBox" HorizontalAlignment="Left" Height="23" Margin="122,76,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="151" Grid.Column="1" LostFocus="Lost_focus"/>
-        <Button x:Name="add_btn" Content="Hinzufügen" HorizontalAlignment="Left" Margin="118,238,0,0" VerticalAlignment="Top" Width="75" Grid.Column="1" Height="20" IsDefault="True" IsEnabled="False" Click="Add_btn_Click"/>
-        <Button x:Name="abort_btn" Content="Abbrechen" HorizontalAlignment="Left" Margin="198,238,0,0" VerticalAlignment="Top" Width="75" Grid.Column="1" Height="20" Click="Abort_btn_Click" IsCancel="True"/>
+        <Button x:Name="add_btn" Content="Hinzufügen (Enter)" HorizontalAlignment="Left" Margin="67,238,0,0" VerticalAlignment="Top" Width="106" Grid.Column="1" Height="20" IsDefault="True" IsEnabled="False" Click="Add_btn_Click"/>
+        <Button x:Name="abort_btn" Content="Abbrechen (Esc)" HorizontalAlignment="Left" Margin="178,238,0,0" VerticalAlignment="Top" Width="95" Grid.Column="1" Height="20" Click="Abort_btn_Click" IsCancel="True"/>
         <DatePicker x:Name="main_inspection_datePicker" Height="29" Margin="113,196,24,0" VerticalAlignment="Top" LostFocus="Lost_focus"/>
         <DatePicker x:Name="safety_inspection_datePicker" HorizontalAlignment="Left" Height="29" Margin="122,196,0,0" VerticalAlignment="Top" Width="151" Grid.Column="1" LostFocus="Lost_focus"/>
 
