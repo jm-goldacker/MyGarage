@@ -2,4 +2,7 @@
 
 MyGarage is a tool to manage your fleet or the repairs of your service station. 
 
-This tool is currently under development and still in its alpha phase. The software is at this moment just in German available.
+# Installation
+
+Download the current release from https://github.com/jm-goldacker/MyGarage/releases 
+Extract the Zip-file and run SqlLocalDB. After the setup finished run the application setup.exe. This will install MyGarage.
