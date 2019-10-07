@@ -5,36 +5,36 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MyGarage"
         mc:Ignorable="d"
-        Title="MyGarage" Height="425.569" Width="827.424">
+        Title="MyGarage" Height="425.569" Width="827.424" xmlns:m="clr-namespace:MultiLanguageMarkup">
     <Grid Margin="0,0,0.2,0" RenderTransformOrigin="0.521,0.685">
         <Grid.RowDefinitions>
-            <RowDefinition/>
-            <RowDefinition Height="0*"/>
+            <RowDefinition />
+            <RowDefinition Height="0*" />
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
         </Grid.ColumnDefinitions>
         <DockPanel Height="388" VerticalAlignment="Top">
             <Menu DockPanel.Dock="Top" Height="391" Margin="0,0,0.2,0">
-                <MenuItem Header="_Datei">
-                    <MenuItem Header="_Einstellungen" IsEnabled="False" />
+                <MenuItem Header="{m:Lang _Datei}" x:Uid="ML_0071">
+                    <MenuItem Header="{m:Lang _Einstellungen}" IsEnabled="False" x:Uid="ML_0072" />
                     <Separator />
-                    <MenuItem Header="_Beenden" Click="Exit_Menu_Click" />
+                    <MenuItem Header="{m:Lang _Beenden}" Click="Exit_Menu_Click" x:Uid="ML_0074" />
                 </MenuItem>
-                <MenuItem Header="_Bearbeiten" IsEnabled="False">
+                <MenuItem Header="{m:Lang _Bearbeiten}" IsEnabled="False" x:Uid="ML_0075">
                 </MenuItem>
-                <MenuItem Header="_Ansicht" IsEnabled="False">
+                <MenuItem Header="{m:Lang _Ansicht}" IsEnabled="False" x:Uid="ML_0076">
                 </MenuItem>
-                <MenuItem Header="_Hilfe" IsEnabled="False">
-                    <MenuItem Header="_Hilfe anzeigen" />
+                <MenuItem Header="{m:Lang _Hilfe}" IsEnabled="False" x:Uid="ML_0077">
+                    <MenuItem Header="{m:Lang _Hilfe_anzeigen}" x:Uid="ML_0078" />
                     <Separator />
-                    <MenuItem Header="_Über MyGarage" />
+                    <MenuItem Header="{m:Lang _Über_MyGarage}" x:Uid="ML_0080" />
                 </MenuItem>
             </Menu>
         </DockPanel>
-        <DataGrid x:Name="dataGrid" Margin="10,21,10,42.4" SelectionChanged="DataGrid_SelectionChanged" IsReadOnly="True"/>
-        <Button x:Name="add_car_btn" Content="Hinzufügen (F11)" Margin="0,0,104.8,12" Height="23" VerticalAlignment="Bottom" Click="Add_car_btn_Click" HorizontalAlignment="Right" Width="101"/>
-        <Button x:Name="delete_car_btn" Content="Löschen (F12)" Margin="0,0,9.8,12" RenderTransformOrigin="0.43,0.441" Height="23" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="90" Click="Delete_car_btn_Click" IsEnabled="False"/>
-        <Button x:Name="search_btn" Content="Suchen (F9)" Margin="10,0,0,12" RenderTransformOrigin="0.431,1.507" Height="23" VerticalAlignment="Bottom" HorizontalAlignment="Left" FontSize="11" Width="74" IsEnabled="False"/>
-        <Button x:Name="details_btn" Content="Details (F10)" Margin="89,0,0,12" RenderTransformOrigin="0.431,1.507" Height="23" VerticalAlignment="Bottom" HorizontalAlignment="Left" FontSize="11" Width="75" Click="Details_btn_Click" IsEnabled="False"/>
+        <DataGrid x:Name="dataGrid" Margin="10,21,10,42.4" SelectionChanged="DataGrid_SelectionChanged" IsReadOnly="True" />
+        <Button x:Name="add_car_btn" Content="{m:Lang Hinzufügen_F11}" Margin="0,0,104.8,12" Height="23" VerticalAlignment="Bottom" Click="Add_car_btn_Click" HorizontalAlignment="Right" Width="101" x:Uid="ML_0082" />
+        <Button x:Name="delete_car_btn" Content="{m:Lang Löschen_F12}" Margin="0,0,9.8,12" RenderTransformOrigin="0.43,0.441" Height="23" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="90" Click="Delete_car_btn_Click" IsEnabled="False" x:Uid="ML_0083" />
+        <Button x:Name="search_btn" Content="{m:Lang Suchen_F9}" Margin="10,0,0,12" RenderTransformOrigin="0.431,1.507" Height="23" VerticalAlignment="Bottom" HorizontalAlignment="Left" FontSize="11" Width="74" IsEnabled="False" x:Uid="ML_0084" />
+        <Button x:Name="details_btn" Content="{m:Lang Details_F10}" Margin="89,0,0,12" RenderTransformOrigin="0.431,1.507" Height="23" VerticalAlignment="Bottom" HorizontalAlignment="Left" FontSize="11" Width="75" Click="Details_btn_Click" IsEnabled="False" x:Uid="ML_0085" />
     </Grid>
 </Window>

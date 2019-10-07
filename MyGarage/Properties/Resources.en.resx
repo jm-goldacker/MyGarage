@@ -118,126 +118,111 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="_Ansicht" xml:space="preserve">
-    <value>_Ansicht</value>
+    <value>_View</value>
   </data>
   <data name="_Bearbeiten" xml:space="preserve">
-    <value>_Bearbeiten</value>
+    <value>_Edit</value>
   </data>
   <data name="_Beenden" xml:space="preserve">
-    <value>_Beenden</value>
+    <value>_Exit</value>
   </data>
   <data name="_Datei" xml:space="preserve">
-    <value>_Datei</value>
+    <value>_File</value>
   </data>
   <data name="_Einstellungen" xml:space="preserve">
-    <value>_Einstellungen</value>
+    <value>_Settings</value>
   </data>
   <data name="_Hilfe" xml:space="preserve">
-    <value>_Hilfe</value>
+    <value>_Help</value>
   </data>
   <data name="_Hilfe_anzeigen" xml:space="preserve">
-    <value>_Hilfe anzeigen</value>
+    <value>_Show Help</value>
   </data>
   <data name="_Über_MyGarage" xml:space="preserve">
-    <value>_Über MyGarage</value>
+    <value>_About MyGarage</value>
   </data>
   <data name="Abbrechen" xml:space="preserve">
-    <value>Abbrechen</value>
+    <value>Cancel</value>
   </data>
   <data name="Beschreibung" xml:space="preserve">
-    <value>Beschreibung</value>
+    <value>Description</value>
   </data>
   <data name="Betriebsstunden" xml:space="preserve">
-    <value>Betriebsstunden</value>
+    <value>Operation hours</value>
   </data>
   <data name="Datum" xml:space="preserve">
-    <value>Datum</value>
-  </data>
-  <data name="Details" xml:space="preserve">
-    <value>Details</value>
-  </data>
-  <data name="Details_F10" xml:space="preserve">
-    <value>Details (F10)</value>
+    <value>Date</value>
   </data>
   <data name="Durchgeführt_von" xml:space="preserve">
-    <value>Durchgeführt von</value>
+    <value>Accomplished by</value>
   </data>
   <data name="Erstzulassung" xml:space="preserve">
-    <value>Erstzulassung</value>
+    <value>First registered</value>
   </data>
   <data name="Fahrzeug_hinzufügen" xml:space="preserve">
-    <value>Fahrzeug hinzufügen</value>
+    <value>Add vehicle</value>
   </data>
   <data name="FIN" xml:space="preserve">
-    <value>FIN</value>
+    <value>Vehicle ID</value>
   </data>
   <data name="Hersteller" xml:space="preserve">
-    <value>Hersteller</value>
+    <value>Manufacturer</value>
   </data>
   <data name="Hinzufügen" xml:space="preserve">
-    <value>Hinzufügen</value>
+    <value>Add</value>
   </data>
   <data name="Hinzufügen_F11" xml:space="preserve">
-    <value>Hinzufügen (F11)</value>
+    <value>Add (F11)</value>
   </data>
   <data name="HSN" xml:space="preserve">
-    <value>HSN</value>
+    <value>Manufacturer ID</value>
   </data>
   <data name="HU_durchgeführt" xml:space="preserve">
-    <value>HU durchgeführt</value>
+    <value>Is inspection</value>
   </data>
   <data name="Kennzeichen" xml:space="preserve">
-    <value>Kennzeichen</value>
+    <value>License plate</value>
   </data>
   <data name="Kilometer" xml:space="preserve">
-    <value>Kilometer</value>
-  </data>
-  <data name="KW" xml:space="preserve">
-    <value>KW</value>
+    <value>Kilometers</value>
   </data>
   <data name="Löschen_Entf" xml:space="preserve">
-    <value>Löschen (Entf)</value>
+    <value>Delete (Del)</value>
   </data>
   <data name="Löschen_F12" xml:space="preserve">
-    <value>Löschen (F12)</value>
+    <value>Delete (F12)</value>
   </data>
   <data name="Mängel" xml:space="preserve">
-    <value>Mängel</value>
+    <value>Defects</value>
   </data>
   <data name="Modell" xml:space="preserve">
-    <value>Modell</value>
+    <value>Model</value>
   </data>
   <data name="Nächste_HU" xml:space="preserve">
-    <value>Nächste HU</value>
+    <value>Next inspection</value>
   </data>
   <data name="Nächste_SP" xml:space="preserve">
-    <value>Nächste SP</value>
+    <value>Next safety check</value>
   </data>
   <data name="Neu_Enter" xml:space="preserve">
-    <value>Neu (Enter)</value>
+    <value>New (Enter)</value>
   </data>
   <data name="Neue_Reparatur" xml:space="preserve">
-    <value>Neue Reparatur</value>
-  </data>
-  <data name="OK" xml:space="preserve">
-    <value>OK</value>
+    <value>New Repair</value>
   </data>
   <data name="PS" xml:space="preserve">
-    <value>PS</value>
+    <value>HP</value>
   </data>
   <data name="Reparaturen_Wartungen" xml:space="preserve">
-    <value>Reparaturen/Wartungen</value>
+    <value>Repairs</value>
   </data>
   <data name="SP_durchgeführt" xml:space="preserve">
-    <value>SP durchgeführt</value>
+    <value>Is safety check</value>
   </data>
   <data name="Suchen_F9" xml:space="preserve">
-    <value>Suchen (F9)</value>
+    <value>Search (F9)</value>
   </data>
   <data name="TSN" xml:space="preserve">
-    <value>TSN</value>
-  </data>
-  <data name="Typ" xml:space="preserve">
-    <value>Typ</value>
+    <value>Type ID</value>
   </data>
 </root>

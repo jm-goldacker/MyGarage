@@ -117,127 +117,168 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="_Ansicht" xml:space="preserve">
-    <value>_Ansicht</value>
-  </data>
-  <data name="_Bearbeiten" xml:space="preserve">
-    <value>_Bearbeiten</value>
-  </data>
-  <data name="_Beenden" xml:space="preserve">
-    <value>_Beenden</value>
-  </data>
-  <data name="_Datei" xml:space="preserve">
-    <value>_Datei</value>
-  </data>
-  <data name="_Einstellungen" xml:space="preserve">
-    <value>_Einstellungen</value>
-  </data>
-  <data name="_Hilfe" xml:space="preserve">
-    <value>_Hilfe</value>
-  </data>
-  <data name="_Hilfe_anzeigen" xml:space="preserve">
-    <value>_Hilfe anzeigen</value>
-  </data>
-  <data name="_Über_MyGarage" xml:space="preserve">
-    <value>_Über MyGarage</value>
-  </data>
-  <data name="Abbrechen" xml:space="preserve">
-    <value>Abbrechen</value>
-  </data>
-  <data name="Beschreibung" xml:space="preserve">
-    <value>Beschreibung</value>
-  </data>
-  <data name="Betriebsstunden" xml:space="preserve">
-    <value>Betriebsstunden</value>
-  </data>
-  <data name="Datum" xml:space="preserve">
-    <value>Datum</value>
-  </data>
-  <data name="Details" xml:space="preserve">
-    <value>Details</value>
-  </data>
-  <data name="Details_F10" xml:space="preserve">
-    <value>Details (F10)</value>
-  </data>
-  <data name="Durchgeführt_von" xml:space="preserve">
-    <value>Durchgeführt von</value>
-  </data>
-  <data name="Erstzulassung" xml:space="preserve">
-    <value>Erstzulassung</value>
-  </data>
-  <data name="Fahrzeug_hinzufügen" xml:space="preserve">
+  <data name="_1" xml:space="preserve">
     <value>Fahrzeug hinzufügen</value>
+    <comment>1</comment>
   </data>
-  <data name="FIN" xml:space="preserve">
-    <value>FIN</value>
-  </data>
-  <data name="Hersteller" xml:space="preserve">
-    <value>Hersteller</value>
-  </data>
-  <data name="Hinzufügen" xml:space="preserve">
-    <value>Hinzufügen</value>
-  </data>
-  <data name="Hinzufügen_F11" xml:space="preserve">
-    <value>Hinzufügen (F11)</value>
-  </data>
-  <data name="HSN" xml:space="preserve">
-    <value>HSN</value>
-  </data>
-  <data name="HU_durchgeführt" xml:space="preserve">
-    <value>HU durchgeführt</value>
-  </data>
-  <data name="Kennzeichen" xml:space="preserve">
+  <data name="_2" xml:space="preserve">
     <value>Kennzeichen</value>
+    <comment>1</comment>
   </data>
-  <data name="Kilometer" xml:space="preserve">
-    <value>Kilometer</value>
+  <data name="_3" xml:space="preserve">
+    <value>Hersteller</value>
+    <comment>1</comment>
   </data>
-  <data name="KW" xml:space="preserve">
-    <value>KW</value>
-  </data>
-  <data name="Löschen_Entf" xml:space="preserve">
-    <value>Löschen (Entf)</value>
-  </data>
-  <data name="Löschen_F12" xml:space="preserve">
-    <value>Löschen (F12)</value>
-  </data>
-  <data name="Mängel" xml:space="preserve">
-    <value>Mängel</value>
-  </data>
-  <data name="Modell" xml:space="preserve">
-    <value>Modell</value>
-  </data>
-  <data name="Nächste_HU" xml:space="preserve">
-    <value>Nächste HU</value>
-  </data>
-  <data name="Nächste_SP" xml:space="preserve">
-    <value>Nächste SP</value>
-  </data>
-  <data name="Neu_Enter" xml:space="preserve">
-    <value>Neu (Enter)</value>
-  </data>
-  <data name="Neue_Reparatur" xml:space="preserve">
-    <value>Neue Reparatur</value>
-  </data>
-  <data name="OK" xml:space="preserve">
-    <value>OK</value>
-  </data>
-  <data name="PS" xml:space="preserve">
-    <value>PS</value>
-  </data>
-  <data name="Reparaturen_Wartungen" xml:space="preserve">
-    <value>Reparaturen/Wartungen</value>
-  </data>
-  <data name="SP_durchgeführt" xml:space="preserve">
-    <value>SP durchgeführt</value>
-  </data>
-  <data name="Suchen_F9" xml:space="preserve">
-    <value>Suchen (F9)</value>
-  </data>
-  <data name="TSN" xml:space="preserve">
-    <value>TSN</value>
-  </data>
-  <data name="Typ" xml:space="preserve">
+  <data name="_4" xml:space="preserve">
     <value>Typ</value>
+    <comment>1</comment>
+  </data>
+  <data name="_5" xml:space="preserve">
+    <value>PS</value>
+    <comment>1</comment>
+  </data>
+  <data name="_6" xml:space="preserve">
+    <value>Nächste HU</value>
+    <comment>1</comment>
+  </data>
+  <data name="_7" xml:space="preserve">
+    <value>FIN</value>
+    <comment>1</comment>
+  </data>
+  <data name="_8" xml:space="preserve">
+    <value>Modell</value>
+    <comment>1</comment>
+  </data>
+  <data name="_9" xml:space="preserve">
+    <value>Erstzulassung</value>
+    <comment>1</comment>
+  </data>
+  <data name="_10" xml:space="preserve">
+    <value>KW</value>
+    <comment>1</comment>
+  </data>
+  <data name="_11" xml:space="preserve">
+    <value>Nächste SP</value>
+    <comment>1</comment>
+  </data>
+  <data name="_12" xml:space="preserve">
+    <value>HSN</value>
+    <comment>1</comment>
+  </data>
+  <data name="_13" xml:space="preserve">
+    <value>TSN</value>
+    <comment>1</comment>
+  </data>
+  <data name="_14" xml:space="preserve">
+    <value>Hinzufügen</value>
+    <comment>1</comment>
+  </data>
+  <data name="_15" xml:space="preserve">
+    <value>Abbrechen</value>
+    <comment>1</comment>
+  </data>
+  <data name="_16" xml:space="preserve">
+    <value>_Datei</value>
+    <comment>1</comment>
+  </data>
+  <data name="_17" xml:space="preserve">
+    <value>_Einstellungen</value>
+    <comment>1</comment>
+  </data>
+  <data name="_18" xml:space="preserve">
+    <value>_Beenden</value>
+    <comment>1</comment>
+  </data>
+  <data name="_19" xml:space="preserve">
+    <value>_Bearbeiten</value>
+    <comment>1</comment>
+  </data>
+  <data name="_20" xml:space="preserve">
+    <value>_Ansicht</value>
+    <comment>1</comment>
+  </data>
+  <data name="_21" xml:space="preserve">
+    <value>_Hilfe</value>
+    <comment>1</comment>
+  </data>
+  <data name="_22" xml:space="preserve">
+    <value>_Hilfe anzeigen</value>
+    <comment>1</comment>
+  </data>
+  <data name="_23" xml:space="preserve">
+    <value>_Über MyGarage</value>
+    <comment>1</comment>
+  </data>
+  <data name="_24" xml:space="preserve">
+    <value>Hinzufügen (F11)</value>
+    <comment>1</comment>
+  </data>
+  <data name="_25" xml:space="preserve">
+    <value>Löschen (F12)</value>
+    <comment>1</comment>
+  </data>
+  <data name="_26" xml:space="preserve">
+    <value>Suchen (F9)</value>
+    <comment>1</comment>
+  </data>
+  <data name="_27" xml:space="preserve">
+    <value>Details (F10)</value>
+    <comment>1</comment>
+  </data>
+  <data name="_28" xml:space="preserve">
+    <value>Details</value>
+    <comment>1</comment>
+  </data>
+  <data name="_29" xml:space="preserve">
+    <value>Reparaturen/Wartungen</value>
+    <comment>1</comment>
+  </data>
+  <data name="_30" xml:space="preserve">
+    <value>Neu (Enter)</value>
+    <comment>1</comment>
+  </data>
+  <data name="_31" xml:space="preserve">
+    <value>Löschen (Entf)</value>
+    <comment>1</comment>
+  </data>
+  <data name="_32" xml:space="preserve">
+    <value>Neue Reparatur</value>
+    <comment>1</comment>
+  </data>
+  <data name="_33" xml:space="preserve">
+    <value>Datum</value>
+    <comment>1</comment>
+  </data>
+  <data name="_34" xml:space="preserve">
+    <value>Kilometer</value>
+    <comment>1</comment>
+  </data>
+  <data name="_35" xml:space="preserve">
+    <value>Betriebsstunden</value>
+    <comment>1</comment>
+  </data>
+  <data name="_36" xml:space="preserve">
+    <value>Durchgeführt von</value>
+    <comment>1</comment>
+  </data>
+  <data name="_37" xml:space="preserve">
+    <value>HU durchgeführt</value>
+    <comment>1</comment>
+  </data>
+  <data name="_38" xml:space="preserve">
+    <value>SP durchgeführt</value>
+    <comment>1</comment>
+  </data>
+  <data name="_39" xml:space="preserve">
+    <value>Beschreibung</value>
+    <comment>1</comment>
+  </data>
+  <data name="_40" xml:space="preserve">
+    <value>Mängel</value>
+    <comment>1</comment>
+  </data>
+  <data name="_41" xml:space="preserve">
+    <value>OK</value>
+    <comment>1</comment>
   </data>
 </root>

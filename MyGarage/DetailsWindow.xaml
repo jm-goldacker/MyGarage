@@ -5,44 +5,44 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MyGarage"
         mc:Ignorable="d"
-        Title="Details" Height="578.078" Width="593.075">
+        Title="{m:Lang Details}" Height="578.078" Width="593.075" xmlns:m="clr-namespace:MultiLanguageMarkup">
     <Grid Margin="0,0,4,0">
         <Grid.RowDefinitions>
-            <RowDefinition Height="376*"/>
-            <RowDefinition Height="173*"/>
+            <RowDefinition Height="376*" />
+            <RowDefinition Height="173*" />
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="285*"/>
-            <ColumnDefinition Width="298*"/>
+            <ColumnDefinition Width="285*" />
+            <ColumnDefinition Width="298*" />
         </Grid.ColumnDefinitions>
-        <Label x:Name="license_plate_label" Content="Kennzeichen" Margin="10,10,197,0" VerticalAlignment="Top" Height="26"/>
-        <Label x:Name="manufacturer_label" Content="Hersteller" Margin="10,41,213,0" VerticalAlignment="Top" Height="26"/>
-        <Label x:Name="type_label" Content="Typ" HorizontalAlignment="Left" Margin="10,125,0,0" VerticalAlignment="Top" Height="26" Width="29"/>
-        <Label x:Name="horse_power_label" Content="PS" HorizontalAlignment="Left" Margin="10,156,0,0" VerticalAlignment="Top" Height="26" Width="22"/>
-        <Label x:Name="main_inspection_label" Content="Nächste HU" HorizontalAlignment="Left" Margin="10,195,0,0" VerticalAlignment="Top" Height="26" Width="74"/>
-        <Label x:Name="vid_label" Content="FIN" HorizontalAlignment="Left" Margin="13,10,0,0" VerticalAlignment="Top" Height="26" Width="29" Grid.Column="1"/>
-        <Label x:Name="model_label" Content="Modell" HorizontalAlignment="Left" Margin="13,41,0,0" VerticalAlignment="Top" Height="26" Width="46" Grid.Column="1"/>
-        <Label x:Name="first_registered_label" Content="Erstzulassung" HorizontalAlignment="Left" Margin="13,125,0,0" VerticalAlignment="Top" Height="26" Width="81" Grid.Column="1"/>
-        <Label x:Name="kilo_watt_label" Content="KW" HorizontalAlignment="Left" Margin="13,156,0,0" VerticalAlignment="Top" Height="26" Width="29" Grid.Column="1"/>
-        <Label x:Name="safety_inspection_label" Content="Nächste SP" HorizontalAlignment="Left" Margin="13,195,0,0" VerticalAlignment="Top" Height="26" Width="69" Grid.Column="1"/>
-        <TextBox x:Name="license_plate_textBox" Height="23" Margin="113,14,20,0" TextWrapping="Wrap" VerticalAlignment="Top" LostFocus="Lost_focus" IsEnabled="False"/>
-        <Label x:Name="manufacturer_id_label" Content="HSN" HorizontalAlignment="Left" Margin="10,72,0,0" VerticalAlignment="Top" Height="26" Width="34"/>
-        <Label x:Name="type_id_label" Content="TSN" HorizontalAlignment="Left" Margin="13,72,0,0" VerticalAlignment="Top" Height="26" Width="32" Grid.Column="1"/>
-        <TextBox x:Name="manufacturer_textBox" Height="23" Margin="113,45,20,0" TextWrapping="Wrap" VerticalAlignment="Top" LostFocus="Lost_focus" IsEnabled="False"/>
-        <TextBox x:Name="manufacturer_id_textBox" Height="23" Margin="113,76,20,0" TextWrapping="Wrap" VerticalAlignment="Top" LostFocus="Lost_focus" IsEnabled="False"/>
-        <TextBox x:Name="type_textBox" Height="23" Margin="113,129,20,0" TextWrapping="Wrap" VerticalAlignment="Top" LostFocus="Lost_focus" IsEnabled="False"/>
-        <TextBox x:Name="horse_power_textBox" Height="23" Margin="113,160,20,0" TextWrapping="Wrap" VerticalAlignment="Top" LostFocus="Lost_focus" IsEnabled="False"/>
-        <TextBox x:Name="kilo_watt_textBox" Height="23" Margin="130,159,16,0" TextWrapping="Wrap" VerticalAlignment="Top" LostFocus="Lost_focus" Grid.Column="1" IsEnabled="False"/>
-        <TextBox x:Name="vid_textBox" Height="23" Margin="130,14,16,0" TextWrapping="Wrap" VerticalAlignment="Top" LostFocus="Lost_focus" Grid.Column="1" IsEnabled="False"/>
-        <TextBox x:Name="model_textBox" Height="23" Margin="130,45,16,0" TextWrapping="Wrap" VerticalAlignment="Top" LostFocus="Lost_focus" Grid.Column="1" IsEnabled="False"/>
-        <TextBox x:Name="type_id_textBox" Height="23" Margin="130,76,16,0" TextWrapping="Wrap" VerticalAlignment="Top" LostFocus="Lost_focus" Grid.Column="1" IsEnabled="False"/>
-        <DatePicker x:Name="main_inspection_datePicker" Height="29" Margin="113,196,20,0" VerticalAlignment="Top" LostFocus="Lost_focus" IsEnabled="False"/>
-        <DatePicker x:Name="safety_inspection_datePicker" Height="29" Margin="130,196,17,0" VerticalAlignment="Top" LostFocus="Lost_focus" Grid.Column="1" IsEnabled="False"/>
-        <DatePicker x:Name="first_registered_datePicker" Height="29" Margin="130,122,17,0" VerticalAlignment="Top" LostFocus="Lost_focus" Grid.Column="1" IsEnabled="False"/>
-        <DataGrid x:Name="dataGrid" Margin="10,281,10.4,33.8" Grid.RowSpan="2" Grid.ColumnSpan="2"/>
-        <Label x:Name="grid_label" Content="Reparaturen/Wartungen" Margin="10,237,131,83"/>
-        <Button x:Name="new_btn" Content="Neu (Enter)" Grid.Column="1" HorizontalAlignment="Right" Margin="0,0,101.4,9.8" Grid.Row="1" VerticalAlignment="Bottom" Width="75" IsDefault="True" Click="New_btn_Click"/>
-        <Button x:Name="delete_btn" Content="Löschen (Entf)" Grid.Column="1" HorizontalAlignment="Right" Margin="0,0,10.4,9.8" Grid.Row="1" VerticalAlignment="Bottom" Width="86" IsDefault="True" Click="Delete_btn_Click"/>
+        <Label x:Name="license_plate_label" Content="{m:Lang Kennzeichen}" Margin="10,10,171,0" VerticalAlignment="Top" Height="26" x:Uid="ML_0037" />
+        <Label x:Name="manufacturer_label" Content="{m:Lang Hersteller}" Margin="10,41,171,0" VerticalAlignment="Top" Height="26" x:Uid="ML_0038" />
+        <Label x:Name="type_label" Content="{m:Lang Typ}" HorizontalAlignment="Left" Margin="10,125,0,0" VerticalAlignment="Top" Height="26" Width="103" x:Uid="ML_0039" />
+        <Label x:Name="horse_power_label" Content="{m:Lang PS}" HorizontalAlignment="Left" Margin="10,156,0,0" VerticalAlignment="Top" Height="26" Width="103" x:Uid="ML_0040" />
+        <Label x:Name="main_inspection_label" Content="{m:Lang Nächste_HU}" HorizontalAlignment="Left" Margin="10,195,0,0" VerticalAlignment="Top" Height="26" Width="103" x:Uid="ML_0041" />
+        <Label x:Name="vid_label" Content="{m:Lang FIN}" HorizontalAlignment="Left" Margin="13,10,0,0" VerticalAlignment="Top" Height="26" Width="117" Grid.Column="1" x:Uid="ML_0042" />
+        <Label x:Name="model_label" Content="{m:Lang Modell}" HorizontalAlignment="Left" Margin="13,41,0,0" VerticalAlignment="Top" Height="26" Width="117" Grid.Column="1" x:Uid="ML_0043" />
+        <Label x:Name="first_registered_label" Content="{m:Lang Erstzulassung}" HorizontalAlignment="Left" Margin="13,125,0,0" VerticalAlignment="Top" Height="26" Width="117" Grid.Column="1" x:Uid="ML_0044" />
+        <Label x:Name="kilo_watt_label" Content="{m:Lang KW}" HorizontalAlignment="Left" Margin="13,156,0,0" VerticalAlignment="Top" Height="26" Width="117" Grid.Column="1" x:Uid="ML_0045" />
+        <Label x:Name="safety_inspection_label" Content="{m:Lang Nächste_SP}" HorizontalAlignment="Left" Margin="13,195,0,0" VerticalAlignment="Top" Height="26" Width="117" Grid.Column="1" x:Uid="ML_0046" />
+        <TextBox x:Name="license_plate_textBox" Height="23" Margin="113,14,20,0" TextWrapping="Wrap" VerticalAlignment="Top" LostFocus="Lost_focus" IsEnabled="False" />
+        <Label x:Name="manufacturer_id_label" Content="{m:Lang HSN}" HorizontalAlignment="Left" Margin="10,72,0,0" VerticalAlignment="Top" Height="26" Width="103" x:Uid="ML_0048" />
+        <Label x:Name="type_id_label" Content="{m:Lang TSN}" HorizontalAlignment="Left" Margin="13,72,0,0" VerticalAlignment="Top" Height="26" Width="117" Grid.Column="1" x:Uid="ML_0049" />
+        <TextBox x:Name="manufacturer_textBox" Height="23" Margin="113,45,20,0" TextWrapping="Wrap" VerticalAlignment="Top" LostFocus="Lost_focus" IsEnabled="False" />
+        <TextBox x:Name="manufacturer_id_textBox" Height="23" Margin="113,76,20,0" TextWrapping="Wrap" VerticalAlignment="Top" LostFocus="Lost_focus" IsEnabled="False" />
+        <TextBox x:Name="type_textBox" Height="23" Margin="113,129,20,0" TextWrapping="Wrap" VerticalAlignment="Top" LostFocus="Lost_focus" IsEnabled="False" />
+        <TextBox x:Name="horse_power_textBox" Height="23" Margin="113,160,20,0" TextWrapping="Wrap" VerticalAlignment="Top" LostFocus="Lost_focus" IsEnabled="False" />
+        <TextBox x:Name="kilo_watt_textBox" Height="23" Margin="130,159,16,0" TextWrapping="Wrap" VerticalAlignment="Top" LostFocus="Lost_focus" Grid.Column="1" IsEnabled="False" />
+        <TextBox x:Name="vid_textBox" Height="23" Margin="130,14,16,0" TextWrapping="Wrap" VerticalAlignment="Top" LostFocus="Lost_focus" Grid.Column="1" IsEnabled="False" />
+        <TextBox x:Name="model_textBox" Height="23" Margin="130,45,16,0" TextWrapping="Wrap" VerticalAlignment="Top" LostFocus="Lost_focus" Grid.Column="1" IsEnabled="False" />
+        <TextBox x:Name="type_id_textBox" Height="23" Margin="130,76,16,0" TextWrapping="Wrap" VerticalAlignment="Top" LostFocus="Lost_focus" Grid.Column="1" IsEnabled="False" />
+        <DatePicker x:Name="main_inspection_datePicker" Height="29" Margin="113,196,20,0" VerticalAlignment="Top" LostFocus="Lost_focus" IsEnabled="False" />
+        <DatePicker x:Name="safety_inspection_datePicker" Height="29" Margin="130,196,17,0" VerticalAlignment="Top" LostFocus="Lost_focus" Grid.Column="1" IsEnabled="False" />
+        <DatePicker x:Name="first_registered_datePicker" Height="29" Margin="130,122,17,0" VerticalAlignment="Top" LostFocus="Lost_focus" Grid.Column="1" IsEnabled="False" />
+        <DataGrid x:Name="dataGrid" Margin="10,281,10.4,33.8" Grid.RowSpan="2" Grid.ColumnSpan="2" />
+        <Label x:Name="grid_label" Content="{m:Lang Reparaturen_Wartungen}" Margin="10,237,131,83" x:Uid="ML_0062" />
+        <Button x:Name="new_btn" Content="{m:Lang Neu_Enter}" Grid.Column="1" HorizontalAlignment="Right" Margin="0,0,101.4,9.8" Grid.Row="1" VerticalAlignment="Bottom" Width="75" IsDefault="True" Click="New_btn_Click" x:Uid="ML_0063" />
+        <Button x:Name="delete_btn" Content="{m:Lang Löschen_Entf}" Grid.Column="1" HorizontalAlignment="Right" Margin="0,0,10.4,9.8" Grid.Row="1" VerticalAlignment="Bottom" Width="86" IsDefault="True" Click="Delete_btn_Click" x:Uid="ML_0064" />
 
     </Grid>
 </Window>
