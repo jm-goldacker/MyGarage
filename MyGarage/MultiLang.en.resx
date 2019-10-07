@@ -202,16 +202,16 @@
     <comment>3</comment>
   </data>
   <data name="_24" xml:space="preserve">
-    <value>Add (F11)</value>
-    <comment>3</comment>
+    <value>Add (F7)</value>
+    <comment>2</comment>
   </data>
   <data name="_25" xml:space="preserve">
-    <value>Delete (F12)</value>
-    <comment>3</comment>
+    <value>Delete (F8)</value>
+    <comment>2</comment>
   </data>
   <data name="_26" xml:space="preserve">
-    <value>Search (F9)</value>
-    <comment>3</comment>
+    <value>Search (F5)</value>
+    <comment>2</comment>
   </data>
   <data name="_29" xml:space="preserve">
     <value>Repairs</value>

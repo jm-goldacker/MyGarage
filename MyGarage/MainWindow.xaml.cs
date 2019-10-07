@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Controls.Primitives;
 using System.Windows.Data;
 using System.Windows.Documents;
 using System.Windows.Input;
@@ -51,17 +52,20 @@ namespace MyGarage
 
         private void Delete_car_btn_Click(object sender, RoutedEventArgs e)
         {
-            DataRowView view = (DataRowView)dataGrid.SelectedItem;
-            String license_plate = view.Row["license_plate"].ToString();
-
-            String message = "Möchten Sie das Fahrzeug mit den Kennzeichen " + license_plate + " wirklich löschen?";
-
-            MessageBoxResult result = MessageBox.Show(message, "Löschen", MessageBoxButton.YesNo);
-
-            if (result.Equals(MessageBoxResult.Yes))
+            if (dataGrid.SelectedIndex != -1)
             {
-                Sql.DeleteCar(license_plate);
-            }
+                DataRowView view = (DataRowView)dataGrid.SelectedItem;
+                String license_plate = view.Row["license_plate"].ToString();
+
+                String message = "Möchten Sie das Fahrzeug mit den Kennzeichen " + license_plate + " wirklich löschen?";
+
+                MessageBoxResult result = MessageBox.Show(message, "Löschen", MessageBoxButton.YesNo);
+
+                if (result.Equals(MessageBoxResult.Yes))
+                {
+                    Sql.DeleteCar(license_plate);
+                }
+            }   
         }
 
         private void DataGrid_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -81,16 +85,36 @@ namespace MyGarage
 
         private void Details_btn_Click(object sender, RoutedEventArgs e)
         {
-            DataRowView view = (DataRowView)dataGrid.SelectedItem;
-            String license_plate = view.Row["license_plate"].ToString();
+            if (dataGrid.SelectedIndex != -1)
+            {
+                DataRowView view = (DataRowView)dataGrid.SelectedItem;
+                String license_plate = view.Row["license_plate"].ToString();
 
-            DetailsWindow detailsWindow = new DetailsWindow(license_plate);
-            detailsWindow.Show();
+                DetailsWindow detailsWindow = new DetailsWindow(license_plate);
+                detailsWindow.Show();
+            }
         }
 
         private void Exit_Menu_Click(object sender, RoutedEventArgs e)
         {
             Close();
+        }
+
+        private void Window_KeyDown(object sender, KeyEventArgs e)
+        {
+           
+            switch (e.Key)
+            {
+                case var _ when e.Key.Equals(Key.F6):
+                    details_btn.RaiseEvent(new RoutedEventArgs(ButtonBase.ClickEvent));
+                    break;
+                case var _ when e.Key.Equals(Key.F7):
+                    add_car_btn.RaiseEvent(new RoutedEventArgs(ButtonBase.ClickEvent));
+                    break;
+                case var _ when e.Key.Equals(Key.F8):
+                    delete_car_btn.RaiseEvent(new RoutedEventArgs(ButtonBase.ClickEvent));
+                    break;
+            }
         }
     }
 }

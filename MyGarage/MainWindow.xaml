@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MyGarage"
         mc:Ignorable="d"
-        Title="MyGarage" Height="425.569" Width="827.424" xmlns:m="clr-namespace:MultiLanguageMarkup">
+        Title="MyGarage" Height="425.569" Width="827.424" xmlns:m="clr-namespace:MultiLanguageMarkup" KeyDown="Window_KeyDown">
     <Grid Margin="0,0,0.2,0" RenderTransformOrigin="0.521,0.685">
         <Grid.RowDefinitions>
             <RowDefinition />

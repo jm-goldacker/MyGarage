@@ -178,7 +178,7 @@ namespace MyGarage.Properties {
         }
         
         /// <summary>
-        ///   Sucht eine lokalisierte Zeichenfolge, die Details (F10) ähnelt.
+        ///   Sucht eine lokalisierte Zeichenfolge, die Details (F6) ähnelt.
         /// </summary>
         public static string Details_F10 {
             get {
@@ -241,7 +241,7 @@ namespace MyGarage.Properties {
         }
         
         /// <summary>
-        ///   Sucht eine lokalisierte Zeichenfolge, die Hinzufügen (F11) ähnelt.
+        ///   Sucht eine lokalisierte Zeichenfolge, die Hinzufügen (F7) ähnelt.
         /// </summary>
         public static string Hinzufügen_F11 {
             get {
@@ -304,7 +304,7 @@ namespace MyGarage.Properties {
         }
         
         /// <summary>
-        ///   Sucht eine lokalisierte Zeichenfolge, die Löschen (F12) ähnelt.
+        ///   Sucht eine lokalisierte Zeichenfolge, die Löschen (F8) ähnelt.
         /// </summary>
         public static string Löschen_F12 {
             get {
@@ -403,7 +403,7 @@ namespace MyGarage.Properties {
         }
         
         /// <summary>
-        ///   Sucht eine lokalisierte Zeichenfolge, die Suchen (F9) ähnelt.
+        ///   Sucht eine lokalisierte Zeichenfolge, die Suchen (F5) ähnelt.
         /// </summary>
         public static string Suchen_F9 {
             get {

@@ -205,7 +205,7 @@ namespace MyGarage.ml_resources {
         }
         
         /// <summary>
-        ///   Sucht eine lokalisierte Zeichenfolge, die Hinzufügen (F11) ähnelt.
+        ///   Sucht eine lokalisierte Zeichenfolge, die Hinzufügen (F7) ähnelt.
         /// </summary>
         public static string _24 {
             get {
@@ -214,7 +214,7 @@ namespace MyGarage.ml_resources {
         }
         
         /// <summary>
-        ///   Sucht eine lokalisierte Zeichenfolge, die Löschen (F12) ähnelt.
+        ///   Sucht eine lokalisierte Zeichenfolge, die Löschen (F8) ähnelt.
         /// </summary>
         public static string _25 {
             get {
@@ -223,7 +223,7 @@ namespace MyGarage.ml_resources {
         }
         
         /// <summary>
-        ///   Sucht eine lokalisierte Zeichenfolge, die Suchen (F9) ähnelt.
+        ///   Sucht eine lokalisierte Zeichenfolge, die Suchen (F5) ähnelt.
         /// </summary>
         public static string _26 {
             get {
@@ -232,7 +232,7 @@ namespace MyGarage.ml_resources {
         }
         
         /// <summary>
-        ///   Sucht eine lokalisierte Zeichenfolge, die Details (F10) ähnelt.
+        ///   Sucht eine lokalisierte Zeichenfolge, die Details (F6) ähnelt.
         /// </summary>
         public static string _27 {
             get {

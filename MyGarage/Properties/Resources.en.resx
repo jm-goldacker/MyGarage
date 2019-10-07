@@ -172,7 +172,7 @@
     <value>Add</value>
   </data>
   <data name="Hinzufügen_F11" xml:space="preserve">
-    <value>Add (F11)</value>
+    <value>Add (F7)</value>
   </data>
   <data name="HSN" xml:space="preserve">
     <value>Manufacturer ID</value>
@@ -190,7 +190,7 @@
     <value>Delete (Del)</value>
   </data>
   <data name="Löschen_F12" xml:space="preserve">
-    <value>Delete (F12)</value>
+    <value>Delete (F8)</value>
   </data>
   <data name="Mängel" xml:space="preserve">
     <value>Defects</value>
@@ -210,6 +210,9 @@
   <data name="Neue_Reparatur" xml:space="preserve">
     <value>New Repair</value>
   </data>
+  <data name="OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
   <data name="PS" xml:space="preserve">
     <value>HP</value>
   </data>
@@ -220,7 +223,7 @@
     <value>Is safety check</value>
   </data>
   <data name="Suchen_F9" xml:space="preserve">
-    <value>Search (F9)</value>
+    <value>Search (F5)</value>
   </data>
   <data name="TSN" xml:space="preserve">
     <value>Type ID</value>

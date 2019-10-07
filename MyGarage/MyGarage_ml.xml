@@ -402,44 +402,44 @@
   <GeneralTexts>
     <StringID>24</StringID>
     <LanguageID>1031</LanguageID>
-    <LanguageText>Hinzufügen (F11)</LanguageText>
-    <Status>1</Status>
+    <LanguageText>Hinzufügen (F7)</LanguageText>
+    <Status>2</Status>
   </GeneralTexts>
   <GeneralTexts>
     <StringID>24</StringID>
     <LanguageID>9</LanguageID>
-    <LanguageText>Add (F11)</LanguageText>
-    <Status>3</Status>
+    <LanguageText>Add (F7)</LanguageText>
+    <Status>2</Status>
   </GeneralTexts>
   <GeneralTexts>
     <StringID>25</StringID>
     <LanguageID>1031</LanguageID>
-    <LanguageText>Löschen (F12)</LanguageText>
-    <Status>1</Status>
+    <LanguageText>Löschen (F8)</LanguageText>
+    <Status>2</Status>
   </GeneralTexts>
   <GeneralTexts>
     <StringID>25</StringID>
     <LanguageID>9</LanguageID>
-    <LanguageText>Delete (F12)</LanguageText>
-    <Status>3</Status>
+    <LanguageText>Delete (F8)</LanguageText>
+    <Status>2</Status>
   </GeneralTexts>
   <GeneralTexts>
     <StringID>26</StringID>
     <LanguageID>1031</LanguageID>
-    <LanguageText>Suchen (F9)</LanguageText>
-    <Status>1</Status>
+    <LanguageText>Suchen (F5)</LanguageText>
+    <Status>2</Status>
   </GeneralTexts>
   <GeneralTexts>
     <StringID>26</StringID>
     <LanguageID>9</LanguageID>
-    <LanguageText>Search (F9)</LanguageText>
-    <Status>3</Status>
+    <LanguageText>Search (F5)</LanguageText>
+    <Status>2</Status>
   </GeneralTexts>
   <GeneralTexts>
     <StringID>27</StringID>
     <LanguageID>1031</LanguageID>
-    <LanguageText>Details (F10)</LanguageText>
-    <Status>1</Status>
+    <LanguageText>Details (F6)</LanguageText>
+    <Status>2</Status>
   </GeneralTexts>
   <GeneralTexts>
     <StringID>28</StringID>
@@ -1392,7 +1392,7 @@
   </GeneralAttributes>
   <GeneralAttributes>
     <Name>MaxMLIdForXaml</Name>
-    <TextValue>106</TextValue>
-    <NumValue>106</NumValue>
+    <TextValue>158</TextValue>
+    <NumValue>158</NumValue>
   </GeneralAttributes>
 </MdbTranslationStore>

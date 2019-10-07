@@ -210,20 +210,20 @@
     <comment>1</comment>
   </data>
   <data name="_24" xml:space="preserve">
-    <value>Hinzufügen (F11)</value>
-    <comment>1</comment>
+    <value>Hinzufügen (F7)</value>
+    <comment>2</comment>
   </data>
   <data name="_25" xml:space="preserve">
-    <value>Löschen (F12)</value>
-    <comment>1</comment>
+    <value>Löschen (F8)</value>
+    <comment>2</comment>
   </data>
   <data name="_26" xml:space="preserve">
-    <value>Suchen (F9)</value>
-    <comment>1</comment>
+    <value>Suchen (F5)</value>
+    <comment>2</comment>
   </data>
   <data name="_27" xml:space="preserve">
-    <value>Details (F10)</value>
-    <comment>1</comment>
+    <value>Details (F6)</value>
+    <comment>2</comment>
   </data>
   <data name="_28" xml:space="preserve">
     <value>Details</value>

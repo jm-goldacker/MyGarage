@@ -157,7 +157,7 @@
     <value>Details</value>
   </data>
   <data name="Details_F10" xml:space="preserve">
-    <value>Details (F10)</value>
+    <value>Details (F6)</value>
   </data>
   <data name="Durchgeführt_von" xml:space="preserve">
     <value>Durchgeführt von</value>
@@ -178,7 +178,7 @@
     <value>Hinzufügen</value>
   </data>
   <data name="Hinzufügen_F11" xml:space="preserve">
-    <value>Hinzufügen (F11)</value>
+    <value>Hinzufügen (F7)</value>
   </data>
   <data name="HSN" xml:space="preserve">
     <value>HSN</value>
@@ -199,7 +199,8 @@
     <value>Löschen (Entf)</value>
   </data>
   <data name="Löschen_F12" xml:space="preserve">
-    <value>Löschen (F12)</value>
+    <value>Löschen (F8)</value>
+    <comment>Previous text: Löschen (F7)</comment>
   </data>
   <data name="Mängel" xml:space="preserve">
     <value>Mängel</value>
@@ -232,7 +233,7 @@
     <value>SP durchgeführt</value>
   </data>
   <data name="Suchen_F9" xml:space="preserve">
-    <value>Suchen (F9)</value>
+    <value>Suchen (F5)</value>
   </data>
   <data name="TSN" xml:space="preserve">
     <value>TSN</value>

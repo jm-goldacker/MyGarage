@@ -98,17 +98,17 @@
   <SourceScanResults>
     <SourceScanID>6</SourceScanID>
     <ModuleName>MainWindow.xaml.cs</ModuleName>
-    <LineNumber>55</LineNumber>
-    <ColumnNumber>46</ColumnNumber>
+    <LineNumber>58</LineNumber>
+    <ColumnNumber>50</ColumnNumber>
     <OriginalText>license_plate</OriginalText>
     <IsHidden>false</IsHidden>
     <IndexOnLine>0</IndexOnLine>
-    <StartOfStatement>55</StartOfStatement>
-    <EndOfStatement>55</EndOfStatement>
+    <StartOfStatement>58</StartOfStatement>
+    <EndOfStatement>58</EndOfStatement>
     <IsVerbatim>false</IsVerbatim>
     <IsHiddenBlock>false</IsHiddenBlock>
     <CodeElement>Delete_car_btn_Click</CodeElement>
-    <RelativeLineNumber>52</RelativeLineNumber>
+    <RelativeLineNumber>53</RelativeLineNumber>
     <IsHiddenString>false</IsHiddenString>
     <IsInterpolatedString>false</IsInterpolatedString>
     <ClassName>MyGarage.MainWindow</ClassName>
@@ -117,17 +117,17 @@
   <SourceScanResults>
     <SourceScanID>7</SourceScanID>
     <ModuleName>MainWindow.xaml.cs</ModuleName>
-    <LineNumber>57</LineNumber>
-    <ColumnNumber>31</ColumnNumber>
+    <LineNumber>60</LineNumber>
+    <ColumnNumber>35</ColumnNumber>
     <OriginalText>Möchten Sie das Fahrzeug mit den Kennzeichen </OriginalText>
     <IsHidden>false</IsHidden>
     <IndexOnLine>0</IndexOnLine>
-    <StartOfStatement>57</StartOfStatement>
-    <EndOfStatement>57</EndOfStatement>
+    <StartOfStatement>60</StartOfStatement>
+    <EndOfStatement>60</EndOfStatement>
     <IsVerbatim>false</IsVerbatim>
     <IsHiddenBlock>false</IsHiddenBlock>
     <CodeElement>Delete_car_btn_Click</CodeElement>
-    <RelativeLineNumber>52</RelativeLineNumber>
+    <RelativeLineNumber>53</RelativeLineNumber>
     <IsHiddenString>false</IsHiddenString>
     <IsInterpolatedString>false</IsInterpolatedString>
     <ClassName>MyGarage.MainWindow</ClassName>
@@ -136,17 +136,17 @@
   <SourceScanResults>
     <SourceScanID>8</SourceScanID>
     <ModuleName>MainWindow.xaml.cs</ModuleName>
-    <LineNumber>57</LineNumber>
-    <ColumnNumber>97</ColumnNumber>
+    <LineNumber>60</LineNumber>
+    <ColumnNumber>101</ColumnNumber>
     <OriginalText> wirklich löschen?</OriginalText>
     <IsHidden>false</IsHidden>
     <IndexOnLine>1</IndexOnLine>
-    <StartOfStatement>57</StartOfStatement>
-    <EndOfStatement>57</EndOfStatement>
+    <StartOfStatement>60</StartOfStatement>
+    <EndOfStatement>60</EndOfStatement>
     <IsVerbatim>false</IsVerbatim>
     <IsHiddenBlock>false</IsHiddenBlock>
     <CodeElement>Delete_car_btn_Click</CodeElement>
-    <RelativeLineNumber>52</RelativeLineNumber>
+    <RelativeLineNumber>53</RelativeLineNumber>
     <IsHiddenString>false</IsHiddenString>
     <IsInterpolatedString>false</IsInterpolatedString>
     <ClassName>MyGarage.MainWindow</ClassName>
@@ -155,17 +155,17 @@
   <SourceScanResults>
     <SourceScanID>9</SourceScanID>
     <ModuleName>MainWindow.xaml.cs</ModuleName>
-    <LineNumber>59</LineNumber>
-    <ColumnNumber>65</ColumnNumber>
+    <LineNumber>62</LineNumber>
+    <ColumnNumber>69</ColumnNumber>
     <OriginalText>Löschen</OriginalText>
     <IsHidden>false</IsHidden>
     <IndexOnLine>0</IndexOnLine>
-    <StartOfStatement>59</StartOfStatement>
-    <EndOfStatement>59</EndOfStatement>
+    <StartOfStatement>62</StartOfStatement>
+    <EndOfStatement>62</EndOfStatement>
     <IsVerbatim>false</IsVerbatim>
     <IsHiddenBlock>false</IsHiddenBlock>
     <CodeElement>Delete_car_btn_Click</CodeElement>
-    <RelativeLineNumber>52</RelativeLineNumber>
+    <RelativeLineNumber>53</RelativeLineNumber>
     <IsHiddenString>false</IsHiddenString>
     <IsInterpolatedString>false</IsInterpolatedString>
     <ClassName>MyGarage.MainWindow</ClassName>
@@ -174,17 +174,17 @@
   <SourceScanResults>
     <SourceScanID>10</SourceScanID>
     <ModuleName>MainWindow.xaml.cs</ModuleName>
-    <LineNumber>85</LineNumber>
-    <ColumnNumber>46</ColumnNumber>
+    <LineNumber>91</LineNumber>
+    <ColumnNumber>50</ColumnNumber>
     <OriginalText>license_plate</OriginalText>
     <IsHidden>false</IsHidden>
     <IndexOnLine>0</IndexOnLine>
-    <StartOfStatement>85</StartOfStatement>
-    <EndOfStatement>85</EndOfStatement>
+    <StartOfStatement>91</StartOfStatement>
+    <EndOfStatement>91</EndOfStatement>
     <IsVerbatim>false</IsVerbatim>
     <IsHiddenBlock>false</IsHiddenBlock>
     <CodeElement>Details_btn_Click</CodeElement>
-    <RelativeLineNumber>82</RelativeLineNumber>
+    <RelativeLineNumber>86</RelativeLineNumber>
     <IsHiddenString>false</IsHiddenString>
     <IsInterpolatedString>false</IsInterpolatedString>
     <ClassName>MyGarage.MainWindow</ClassName>
