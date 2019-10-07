@@ -90,6 +90,9 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>MultiLang.resx</DependentUpon>
     </Compile>
+    <Compile Include="SelectLanguage.xaml.cs">
+      <DependentUpon>SelectLanguage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Sql.cs" />
     <Page Include="AddCarWindow.xaml">
       <SubType>Designer</SubType>
@@ -125,6 +128,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="NewRepairWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SelectLanguage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

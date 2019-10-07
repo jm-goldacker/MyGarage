@@ -16,6 +16,12 @@ namespace MyGarage
 
     private void Application_Startup ( object sender, StartupEventArgs e )
     {
+      //Sprachauswahl-Formular anzeigen
+      System.Windows.ShutdownMode sm = this.ShutdownMode ;
+      this.ShutdownMode = System.Windows.ShutdownMode.OnExplicitShutdown ;
+      MultiLang.SelectLanguage sl = new MultiLang.SelectLanguage() ;
+      sl.LoadSettingsAndShow() ;
+      this.ShutdownMode = sm ;
     }
 
     }

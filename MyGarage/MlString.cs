@@ -33,6 +33,6 @@ namespace MultiLang
     {
       return ResMgr.GetString ( "_" + StringID.ToString() ) ;                                              //MLHIDE
     }
-    public static string[] SupportedCultures = { "de-DE", "en" } ; //MLHIDE
+    public static string[] SupportedCultures = { "en", "de-DE" } ; //MLHIDE
   }
 }
