@@ -5,7 +5,7 @@ MyGarage is a tool to manage your fleet or the repairs of your service station.
 ## About this project
 
 This is my first "real" C# project and was developed around 2014 - 2015 for a small company to manage their car fleet. 
-I programmed this when I was a high school student and so there is no need to say I would do many things different now ;)
+I programmed this when I was a high school student. Needless to say I would do many things different now ;)
 
 <b>This project is not being maintained. Maybe I will refactor or rewrite the code in the future.</b>
 
